@@ -1,0 +1,105 @@
+@import "_zero_style";
+@import "_fonts";
+
+body{
+    background: url(../img/scribble_lightest_5098.png) right 2058px no-repeat,
+    url(../img/scribble_lightest_5031.png) left 321px no-repeat , url(../img/scribble_dark_5027.png) right 480px no-repeat,
+    url(../img/scribble_dark_5079.png) left 1192px no-repeat, url(../img/scribble_dark_5081.png) right 1614px no-repeat, #e9e7e7;
+    letter-spacing: -0.025em;
+}
+nav, h6, p, span{
+    font-family: Lato;
+}
+button{
+    font-family: Lato;
+    font-size: 21px;
+    line-height: 1.2;
+    background-color: transparent;
+}
+nav{
+    button{
+        color: #515155;
+        font-size: 21px;
+        line-height: 1.2;
+        font-weight: 300;
+    }
+    padding: 80px 8.2vw 0;
+}
+
+div{
+    color: #232323;
+}
+h1{
+    font-family: Cardo;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: #232323;
+}
+h6{
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 900;
+}
+p{
+    font-size: 16.7px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: justify;
+}
+span{
+    display: inline-block;
+    font-size: 20.9px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #232323;
+}
+.block{
+    padding: 0 8.2vw;
+}
+.flex{
+    display: flex;
+}
+
+.footer{
+    background: url(../img/scribble_dark_5334.png) left 400px no-repeat, #c4c4c4 ;
+    margin-top: 215px;
+    padding: 8.2vw;
+    h1{
+        font-size: 63.4px;
+        line-height: 63px;
+        margin-right: 8.3vw;
+        width: 240px;
+    }
+    h6{
+        font-size: 25.1px;
+        line-height: 50px;
+        font-weight: 900;
+    }
+    span{
+        font-size: 20.9px;
+        line-height: 50px;
+        font-weight: 400;
+        width: 170px;
+    }
+    p{
+        font-size: 20.9px;
+        line-height: 50px;
+        width: 100%;
+        margin-top: 110px;
+        text-align: center;
+    }
+}
+.links{
+    width: 57.7vw;
+}
+.link_column{
+}
+
+@import "_welcome";
+@import "_create";
+@import "_block3";
+@import "_block4-5";
+@import "_block6-7";
+@import "_block8-9";
+
+@import "_flex.scss";
