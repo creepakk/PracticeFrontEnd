@@ -7,9 +7,10 @@ nav{
 	display: flex;
 	align-items: center;	
 	justify-content: space-between;
+
 }
 .button_contact{
-	margin: 0 0 0 552px;
+	margin-left: 30vw;
 }
 
 
@@ -104,11 +105,10 @@ nav{
 }
 
 .footer{
-	flex-wrap: wrap;
+	flex-wrap: wrap;	
 }
 .links{
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .link_column{

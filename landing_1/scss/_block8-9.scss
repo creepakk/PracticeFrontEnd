@@ -1,60 +1,66 @@
 .block8{
-	background: url(../img/scribble_dark_5282.png) left 264px no-repeat, url(../img/scribble_dark_5286.png) right 961px no-repeat, #e9e7e7;
-	padding: 313px 0 197px;
+	background: url(../img/scribble_dark_5282.png) left 18.333vw/23.194vw no-repeat, url(../img/scribble_dark_5286.png) right 66.736vw/28.264vw no-repeat, #e9e7e7;
+	padding: 21.736vw 0 13.681vw;
 	text-align: center;
 	h1{
-		font-size: 81.5px;
-		line-height: 81px;
+		font-size: 5.659vw;
+    	line-height: 5.625vw;
 		padding:0 28vw;
 	}
 }
 .block8_content{
-	padding-top: 47px;
+	padding-top: 3.264vw;
 	position: relative;
 }
 .block8_block{
-	width: 392px;
-	height: 427px;
-	border: 3px solid #232323;
-	border-radius: 10px;
-	padding: 72px 42px;
+	width: 27.222vw;
+	height: 29.653vw;
+	border: 0.2083vw solid #232323;
+	border-radius: 0.694vw;
+	padding: 5vw 2.916vw;
 	p{
 		text-align: center;
 	}
 	z-index: 1;
+	img{
+		width: 9.375vw;
+	}
 }
 .button_arrow_b8{
-	width: 86px;
-	height: 76px;
-	border: 3px solid #232323;
-	border-radius: 10px;
+	width: 5.972vw;
+	height: 5.278vw;
+	border: 0.2083vw solid #232323;
+	border-radius: 0.694vw;
 }
 .arrow_left{
-	background: url(../img/line_5275.png) 50% 50% no-repeat
-	, url(../img/line_5274.png) 20px 50% no-repeat
+	background: url(../img/line_5275.png) 50% 50%/2.4306vw no-repeat
+	, url(../img/line_5274.png) 1.389vw 50%/1.389vw no-repeat
 	, #e9e7e7;
 	position: absolute;
 	left: 4.9vw;
-	top: 218px;
+	top: 15.139vw;
 	z-index: 2;
 }
 .arrow_right{
-	background: url(../img/line_5275.png) 50% 50% no-repeat
-	, url(../img/line_5279.png) 40px 50% no-repeat
+	background: url(../img/line_5275.png) 50% 50%/2.4306vw no-repeat
+	, url(../img/line_5279.png) 2.986vw 50%/1.389vw no-repeat
 	, #e9e7e7;
 	position: absolute;
 	right: 4.9vw;
-	top: 218px;
+	top: 15.139vw;
 	z-index: 2;
 }
 
 
 .block9{
 	h1{
-		font-size: 81.5px;
-		line-height: 81px;
+		font-size: 5.659vw;
+    	line-height: 5.625vw;
 	}
-	height: 730px;
+	img{
+		width: 46.25vw;
+		height: 50.6944vw;
+	}
 }
 .form{
 	width: 31.7vw;
@@ -62,48 +68,48 @@
 .form_group{
 	label{
 		font-family: Lato;
-		font-size: 20.9px;
-		line-height: 16px;
+		font-size: 1.4514vw;
+		line-height: 1.1111vw;
 		font-weight: 400;
 		color: #232323;
 	}
 	position: relative;
-	margin-bottom: 23px;
+	margin-bottom: 1.597vw;
 }
 .form_label{
 	position: absolute;
-	top: 22px;	
-	left: 30px;
+	top: 1.528vw;	
+	left: 2.0833vw;
 	z-index: -1;
 	transition: 0.3s;
 }
 .form_input{
 	font-family: Lato;
-	font-size: 20.9px;
-	line-height: 16px;
+	font-size: 1.4514vw;
+	line-height: 1.1111vw;
 	font-weight: 400;
 	color: #232323;
 
 	width: 100%;
-	padding: 0 27px;
-	height: 63px;
+	padding: 0 1.875vw;
+	height: 4.375vw;
 	outline: none;
 	background-color: transparent;
-	border: 3px solid #232323;
-	border-radius: 7px;
+	border: 0.2083vw solid #232323;
+	border-radius: 0.486vw;
 }
 .textarea{
-	padding: 19px 27px;
-	height: 226px;
+	padding: 1.3194vw 1.875vw;
+	height: 15.694vw;
 }
 .form_button{
-	margin-top: 35px;
+	margin-top: 2.431vw;
 	font-family: Lato;
-	font-size: 25px;
-	line-height: 16px;
+	font-size: 1.7361vw;
+	line-height: 1.1111vw;
 	font-weight: 400;
 	color: #e9e7e7;
-	height: 66px;
+	height: 4.583vw;
 	background-color: #232323;
 	border-radius: 5px;	
 }

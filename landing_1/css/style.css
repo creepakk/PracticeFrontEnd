@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 body {
-  background: url(../img/scribble_lightest_5098.png) right 2058px no-repeat, url(../img/scribble_lightest_5031.png) left 321px no-repeat, url(../img/scribble_dark_5027.png) right 480px no-repeat, url(../img/scribble_dark_5079.png) left 1192px no-repeat, url(../img/scribble_dark_5081.png) right 1614px no-repeat, #e9e7e7;
+  background: url(../img/scribble_lightest_5031.png) left 22.292vw/42.2vw no-repeat, url(../img/scribble_dark_5027.png) right 33.333vw/8.333vw no-repeat, url(../img/scribble_dark_5079.png) left 82.778vw/3.264vw no-repeat, url(../img/scribble_dark_5081.png) right 112.083vw/5.069vw no-repeat, url(../img/scribble_lightest_5098.png) right 142.917vw/18.472vw no-repeat, #e9e7e7;
   letter-spacing: -0.025em;
 }
 
@@ -113,17 +113,17 @@ nav, h6, p, span {
 
 button {
   font-family: Lato;
-  font-size: 21px;
+  font-size: 1.458vw;
   line-height: 1.2;
   background-color: transparent;
 }
 
 nav {
-  padding: 80px 8.2vw 0;
+  padding: 5.556vw 8.2vw 0;
 }
 nav button {
   color: #515155;
-  font-size: 21px;
+  font-size: 1.458vw;
   line-height: 1.2;
   font-weight: 300;
 }
@@ -140,13 +140,13 @@ h1 {
 }
 
 h6 {
-  font-size: 25px;
+  font-size: 1.736vw;
   line-height: 1.2;
   font-weight: 900;
 }
 
 p {
-  font-size: 16.7px;
+  font-size: 1.16vw;
   line-height: 1.2;
   font-weight: 400;
   text-align: justify;
@@ -171,37 +171,39 @@ span {
 }
 
 .footer {
-  background: url(../img/scribble_dark_5334.png) left 400px no-repeat, #c4c4c4;
-  margin-top: 215px;
+  background: url(../img/scribble_dark_5334.png) left 27.778vw/27.708vw no-repeat, #c4c4c4;
+  margin-top: 14.931vw;
   padding: 8.2vw;
 }
 .footer h1 {
-  font-size: 63.4px;
-  line-height: 63px;
+  font-size: 4.403vw;
+  line-height: 4.375vw;
   margin-right: 8.3vw;
-  width: 240px;
+  width: 16.667vw;
 }
 .footer h6 {
-  font-size: 25.1px;
-  line-height: 50px;
+  font-size: 1.743vw;
+  line-height: 3.472vw;
   font-weight: 900;
 }
-.footer span {
-  font-size: 20.9px;
-  line-height: 50px;
-  font-weight: 400;
-  width: 170px;
-}
 .footer p {
-  font-size: 20.9px;
-  line-height: 50px;
+  font-size: 1.451vw;
+  line-height: 3.472vw;
   width: 100%;
-  margin-top: 110px;
+  margin-top: 7.639vw;
   text-align: center;
 }
 
 .links {
   width: 57.7vw;
+}
+
+.link_column button {
+  text-align: left;
+  font-size: 1.451vw;
+  margin: 1.0104vw 0;
+  font-weight: 400;
+  width: 13.194vw;
 }
 
 .button_home {
@@ -210,93 +212,96 @@ span {
 }
 
 .button_contact {
-  padding: 17px 57px 18px;
-  font-weight: 700;
+  padding: 1.25vw 3.958vw;
   color: #232323;
-  border: 3px solid #232323;
-  border-radius: 7px;
+  font-weight: 700;
+  border: 0.2083vw solid #232323;
+  border-radius: 0.486vw;
 }
 
 .block1 {
-  margin-top: 105px;
+  margin-top: 7.292vw;
+}
+.block1 img {
+  width: 45.97vw;
+  height: 29.097vw;
 }
 
 .block1_text {
-  width: 430px;
+  margin-right: 7.4vw;
 }
 
 .block1 h1 {
-  font-size: 81.5px;
-  line-height: 81px;
+  font-size: 5.659vw;
+  line-height: 5.625vw;
 }
 
 .button_reserve {
-  padding: 18px 57px 19px;
+  padding: 1.25vw 3.958vw;
   font-family: Lato;
-  font-size: 21px;
   line-height: 1.2;
   font-weight: 700;
   letter-spacing: -0.025em;
   color: #e9e7e7;
   background-color: #232323;
-  border-radius: 7px;
+  border-radius: 0.486vw;
 }
 
 .block2 {
-  background: url(../img/scribble_light_5041.png) 0px 50px no-repeat, url(../img/scribble_light_5043.png) right 235px no-repeat, #232323;
-  margin-top: 160px;
-  height: 387px;
-  padding: 50px 0;
+  background: url(../img/scribble_light_5041.png) 0px 3.472vw/30.07vw no-repeat, url(../img/scribble_light_5043.png) right 16.32vw/32.986vw no-repeat, #232323;
+  margin-top: 11.111vw;
+  padding: 3.472vw 34.72vw;
 }
 
 .block2_text {
-  width: 440px;
   color: #e9e7e7;
   text-align: center;
 }
 
 .block2 h1 {
-  font-size: 55px;
-  line-height: 55px;
+  font-size: 3.854vw;
+  line-height: 3.819vw;
   color: #e9e7e7;
 }
 
 .block2 p {
+  padding: 2.431vw 0;
   text-align: center;
 }
 
 .button_travel {
-  padding: 18px 60px 18px 60px;
+  padding: 1.25vw 3.958vw;
   background-color: transparent;
   color: #e9e7e7;
-  border: 3px solid #e9e7e7;
-  border-radius: 7px;
+  border: 0.208vw solid #e9e7e7;
+  border-radius: 0.486vw;
   font-weight: 700;
 }
 
 .block3 {
-  margin: 165px 0;
+  margin-top: 11.458vw;
 }
 
 .block3_block {
-  width: 363px;
-  height: 474px;
+  width: 25.208vw;
+  height: 32.917vw;
 }
 
 .block3 h1 {
-  font-size: 36.4px;
-  line-height: 36px;
+  font-size: 2.528vw;
+  line-height: 2.5vw;
 }
 
-.block3 span {
-  width: 52px;
-  height: 3px;
-  border: 2px solid #232323;
+.line {
+  width: 3.611vw;
 }
 
 .block4 {
-  padding: 400px 23vw 115px;
-  background: url(../img/scribble_dark_5096.png) 9vw bottom no-repeat padding-box;
+  padding: 27.778vw 23vw 7.986vw;
+  background: url(../img/scribble_dark_5096.png) 9vw bottom/29.444vw no-repeat padding-box;
+}
+.block4 img {
+  width: 5.0594vw;
 }
 
 .block4_content {
@@ -304,62 +309,68 @@ span {
 }
 
 .block4_content h1 {
-  font-size: 97.7px;
-  line-height: 97px;
-  margin: 62px 0;
+  font-size: 6.785vw;
+  line-height: 6.736vw;
+  margin: 4.305vw 0;
 }
 
 .block4_content span {
   font-family: Cardo;
-  font-size: 97.7px;
-  line-height: 97px;
+  font-size: 6.785vw;
+  line-height: 6.736vw;
   font-style: italic;
   text-decoration: underline;
 }
 
 .block5 {
-  padding: 115px 8vw 50px;
+  padding: 7.986vw 8.2vw 3.472vw;
   position: relative;
 }
 
 .block5_image1 {
-  width: 564px;
-  height: 776px;
-  margin-right: 43px;
+  width: 39.236vw;
+  height: 53.889vw;
+  margin-right: 2.986vw;
 }
 
 .block5_image2 {
-  width: 418px;
-  margin-bottom: 78px;
+  width: 29.028vw;
+  height: 22.361vw;
+  margin-bottom: 5.416vw;
 }
 
 .tape {
   position: absolute;
-  top: 370px;
+  width: 4.931vw;
+  top: 25.694vw;
   left: 6vw;
   opacity: 0.9;
 }
 
 .block5_content h1 {
-  font-size: 36.4px;
-  line-height: 50px;
+  font-size: 2.528vw;
+  line-height: 3.472vw;
   text-decoration: underline;
-  margin-right: 45px;
+  margin-right: 3.125vw;
 }
 
 .button_arrow {
-  background: url(../img/line_5111.png) left 50% no-repeat, url(../img/line_5110.png) right no-repeat;
+  background: url(../img/line_5111.png) left 50%/9.653vw no-repeat, url(../img/line_5110.png) right/auto 3.8194vw no-repeat;
   position: absolute;
-  right: 8vw;
-  bottom: 94px;
-  width: 141px;
-  height: 55px;
+  right: 8.2vw;
+  bottom: 6.528vw;
+  width: 9.792vw;
+  height: 3.8194vw;
 }
 
 .block6 {
-  background: url(../img/scribble_light_5145.png) left 756px no-repeat, #232323;
-  padding: 155px 0;
+  background: url(../img/scribble_light_5145.png) left 52.5vw/36.319vw no-repeat, #232323;
+  padding: 10.764vw 0;
   padding-left: 8vw;
+}
+.block6 img {
+  width: 52.5694vw;
+  height: 39.028vw;
 }
 
 .block6_content {
@@ -368,9 +379,9 @@ span {
 
 .block6_content h1 {
   color: #e9e7e7;
-  font-size: 55.5px;
-  line-height: 55px;
-  margin-bottom: 110px;
+  font-size: 3.854vw;
+  line-height: 3.819vw;
+  margin-bottom: 7.639vw;
 }
 
 .block6_text {
@@ -378,11 +389,15 @@ span {
 }
 
 .block6_text h6 {
-  margin-bottom: 19px;
+  margin-bottom: 1.319vw;
 }
 
 .block7 {
-  padding-top: 175px;
+  padding-top: 12.153vw;
+}
+.block7 img {
+  width: 27.083vw;
+  height: 35.833vw;
 }
 
 .block7_content {
@@ -390,81 +405,85 @@ span {
 }
 
 .block7_content h1 {
-  font-size: 81.5px;
-  line-height: 81px;
+  font-size: 5.659vw;
+  line-height: 5.625vw;
 }
 
 .block7_content p {
-  border: 3px solid #232323;
+  border: 0.2083vw solid #232323;
   border-left: 0;
   border-right: 0;
-  padding: 22px 39px;
-  margin-top: -3px;
+  padding: 1.528vw 2.7083vw;
+  margin-top: -0.2083vw;
 }
 
-.block7_text span {
-  height: 19px;
-  width: 19px;
-  background: url(../img/line_5158.png) 8px 0px no-repeat, url(../img/line_5159.png) 0px 8px no-repeat;
+.block7_text button {
+  height: 1.32vw;
+  width: 1.32vw;
+  background: url(../img/line_5158.png) 50% 50%/auto 1.32vw no-repeat, url(../img/line_5159.png) 50% 50%/1.32vw no-repeat;
 }
 
 .block8 {
-  background: url(../img/scribble_dark_5282.png) left 264px no-repeat, url(../img/scribble_dark_5286.png) right 961px no-repeat, #e9e7e7;
-  padding: 313px 0 197px;
+  background: url(../img/scribble_dark_5282.png) left 18.333vw/23.194vw no-repeat, url(../img/scribble_dark_5286.png) right 66.736vw/28.264vw no-repeat, #e9e7e7;
+  padding: 21.736vw 0 13.681vw;
   text-align: center;
 }
 .block8 h1 {
-  font-size: 81.5px;
-  line-height: 81px;
+  font-size: 5.659vw;
+  line-height: 5.625vw;
   padding: 0 28vw;
 }
 
 .block8_content {
-  padding-top: 47px;
+  padding-top: 3.264vw;
   position: relative;
 }
 
 .block8_block {
-  width: 392px;
-  height: 427px;
-  border: 3px solid #232323;
-  border-radius: 10px;
-  padding: 72px 42px;
+  width: 27.222vw;
+  height: 29.653vw;
+  border: 0.2083vw solid #232323;
+  border-radius: 0.694vw;
+  padding: 5vw 2.916vw;
   z-index: 1;
 }
 .block8_block p {
   text-align: center;
 }
+.block8_block img {
+  width: 9.375vw;
+}
 
 .button_arrow_b8 {
-  width: 86px;
-  height: 76px;
-  border: 3px solid #232323;
-  border-radius: 10px;
+  width: 5.972vw;
+  height: 5.278vw;
+  border: 0.2083vw solid #232323;
+  border-radius: 0.694vw;
 }
 
 .arrow_left {
-  background: url(../img/line_5275.png) 50% 50% no-repeat, url(../img/line_5274.png) 20px 50% no-repeat, #e9e7e7;
+  background: url(../img/line_5275.png) 50% 50%/2.4306vw no-repeat, url(../img/line_5274.png) 1.389vw 50%/1.389vw no-repeat, #e9e7e7;
   position: absolute;
   left: 4.9vw;
-  top: 218px;
+  top: 15.139vw;
   z-index: 2;
 }
 
 .arrow_right {
-  background: url(../img/line_5275.png) 50% 50% no-repeat, url(../img/line_5279.png) 40px 50% no-repeat, #e9e7e7;
+  background: url(../img/line_5275.png) 50% 50%/2.4306vw no-repeat, url(../img/line_5279.png) 2.986vw 50%/1.389vw no-repeat, #e9e7e7;
   position: absolute;
   right: 4.9vw;
-  top: 218px;
+  top: 15.139vw;
   z-index: 2;
 }
 
-.block9 {
-  height: 730px;
-}
 .block9 h1 {
-  font-size: 81.5px;
-  line-height: 81px;
+  font-size: 5.659vw;
+  line-height: 5.625vw;
+}
+.block9 img {
+  width: 46.25vw;
+  height: 50.6944vw;
 }
 
 .form {
@@ -473,20 +492,20 @@ span {
 
 .form_group {
   position: relative;
-  margin-bottom: 23px;
+  margin-bottom: 1.597vw;
 }
 .form_group label {
   font-family: Lato;
-  font-size: 20.9px;
-  line-height: 16px;
+  font-size: 1.4514vw;
+  line-height: 1.1111vw;
   font-weight: 400;
   color: #232323;
 }
 
 .form_label {
   position: absolute;
-  top: 22px;
-  left: 30px;
+  top: 1.528vw;
+  left: 2.0833vw;
   z-index: -1;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -494,32 +513,32 @@ span {
 
 .form_input {
   font-family: Lato;
-  font-size: 20.9px;
-  line-height: 16px;
+  font-size: 1.4514vw;
+  line-height: 1.1111vw;
   font-weight: 400;
   color: #232323;
   width: 100%;
-  padding: 0 27px;
-  height: 63px;
+  padding: 0 1.875vw;
+  height: 4.375vw;
   outline: none;
   background-color: transparent;
-  border: 3px solid #232323;
-  border-radius: 7px;
+  border: 0.2083vw solid #232323;
+  border-radius: 0.486vw;
 }
 
 .textarea {
-  padding: 19px 27px;
-  height: 226px;
+  padding: 1.3194vw 1.875vw;
+  height: 15.694vw;
 }
 
 .form_button {
-  margin-top: 35px;
+  margin-top: 2.431vw;
   font-family: Lato;
-  font-size: 25px;
-  line-height: 16px;
+  font-size: 1.7361vw;
+  line-height: 1.1111vw;
   font-weight: 400;
   color: #e9e7e7;
-  height: 66px;
+  height: 4.583vw;
   background-color: #232323;
   border-radius: 5px;
 }
@@ -560,7 +579,7 @@ nav {
 }
 
 .button_contact {
-  margin: 0 0 0 552px;
+  margin-left: 30vw;
 }
 
 .block1 {
@@ -748,8 +767,6 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

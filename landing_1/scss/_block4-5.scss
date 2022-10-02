@@ -1,49 +1,54 @@
 .block4{
-	padding: 400px 23vw 115px;
-	background: url(../img/scribble_dark_5096.png) 9vw bottom no-repeat padding-box;
+	padding: 27.778vw 23vw 7.986vw;
+	background: url(../img/scribble_dark_5096.png) 9vw bottom/29.444vw no-repeat padding-box;
+	img{
+		width: 5.0594vw;
+	}
 }
 .block4_content{
 	text-align: center;
 	
 }
 .block4_content h1{
-	font-size: 97.7px;
-	line-height: 97px;
-	margin: 62px 0;
+	font-size: 6.785vw;
+	line-height: 6.736vw;
+	margin: 4.305vw 0;
 }
 .block4_content span{
 	font-family: Cardo;
-	font-size: 97.7px;
-	line-height: 97px;	
+	font-size: 6.785vw;
+	line-height: 6.736vw;	
 	font-style: italic;
 	text-decoration: underline;
 }
 
 
 .block5{
-	padding: 115px 8vw 50px;
+	padding: 7.986vw 8.2vw 3.472vw;
 	position: relative;
 }
 .block5_image1{
-	width: 564px;
-	height: 776px;
-	margin-right: 43px;
+	width: 39.236vw;
+	height: 53.889vw;
+	margin-right: 2.986vw;
 }
 .block5_image2{
-	width: 418px;
-	margin-bottom: 78px;
+	width: 29.028vw;
+	height: 22.361vw;
+	margin-bottom: 5.416vw;
 }
 .tape{
 	position: absolute;
-	top: 370px;
+	width: 4.931vw;
+	top: 25.694vw;
 	left: 6vw;
 	opacity: 0.9;
 }
 .block5_content h1{
-	font-size: 36.4px;
-	line-height: 50px;
+	font-size: 2.528vw;
+	line-height: 3.472vw;
 	text-decoration: underline;
-	margin-right: 45px;
+	margin-right: 3.125vw;
 }
 .block5_content p{
 	
@@ -52,10 +57,11 @@
 	
 }
 .button_arrow{
-	background: url(../img/line_5111.png) left 50% no-repeat, url(../img/line_5110.png) right no-repeat ;
+	background: url(../img/line_5111.png) left 50%/9.653vw no-repeat,
+	url(../img/line_5110.png) right/auto 3.8194vw no-repeat ;
 	position: absolute;
-	right: 8vw;
-	bottom: 94px;
-	width: 141px;
-	height: 55px;
+	right: 8.2vw;
+	bottom: 6.528vw;
+	width: 9.792vw;
+	height: 3.8194vw;
 }
