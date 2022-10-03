@@ -13,14 +13,14 @@ body{
 nav, h6, p, span{
     font-family: Lato;
 }
-button{
+a{
     font-family: Lato;
     font-size: 1.458vw;
     line-height: 1.2;
     background-color: transparent;
 }
 nav{
-    button{
+    a{
         color: #515155;
         font-size: 1.458vw;
         line-height: 1.2;
@@ -50,7 +50,6 @@ p{
     text-align: justify;
 }
 span{
-    display: inline-block;
     font-size: 20.9px;
     line-height: 1.2;
     font-weight: 300;
@@ -88,22 +87,21 @@ span{
 }
 .links{
     width: 57.7vw;
-}
-.link_column{
-    button{
+    a{
         text-align: left;
         font-size: 1.451vw;
         margin: 1.0104vw 0;
         font-weight: 400;
         width: 13.194vw;
+        color: #232323;
     }
 }
 
+
 @import "_welcome";
 @import "_create";
-@import "_block3";
-@import "_block4-5";
-@import "_block6-7";
-@import "_block8-9";
+@import "_gallery-see_places-description";
+@import "_choose-more_info.scss";
+@import "_reviews-be_updated.scss";
 
 @import "_flex.scss";

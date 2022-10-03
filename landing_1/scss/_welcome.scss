@@ -8,26 +8,25 @@
     font-weight: 700;
     border: 0.2083vw solid #232323;
     border-radius: 0.486vw;
+    margin-left: 30vw;
 }
-.block1{
+.welcome{
     margin-top: 7.292vw;
-    
+    h1{
+        font-size: 5.659vw;
+        line-height: 5.625vw;
+    }
     img{
-    width: 45.97vw;
-    height: 29.097vw;
+        width: 45.97vw;
+        height: 29.097vw;
+    }
+    div{
+        margin-right: 7.4vw;
     }
 }
-.block1_text{
-    margin-right: 7.4vw;
-}
-.block1 h1{
-    font-size: 5.659vw;
-    line-height: 5.625vw;
-}
 
-.img_mountains1{
-    
-}
+
+
 .button_reserve{
     padding: 1.25vw 3.958vw;
     font-family: Lato;

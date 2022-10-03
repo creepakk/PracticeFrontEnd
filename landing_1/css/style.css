@@ -111,7 +111,7 @@ nav, h6, p, span {
   font-family: Lato;
 }
 
-button {
+a {
   font-family: Lato;
   font-size: 1.458vw;
   line-height: 1.2;
@@ -121,7 +121,7 @@ button {
 nav {
   padding: 5.556vw 8.2vw 0;
 }
-nav button {
+nav a {
   color: #515155;
   font-size: 1.458vw;
   line-height: 1.2;
@@ -153,7 +153,6 @@ p {
 }
 
 span {
-  display: inline-block;
   font-size: 20.9px;
   line-height: 1.2;
   font-weight: 300;
@@ -197,13 +196,13 @@ span {
 .links {
   width: 57.7vw;
 }
-
-.link_column button {
+.links a {
   text-align: left;
   font-size: 1.451vw;
   margin: 1.0104vw 0;
   font-weight: 400;
   width: 13.194vw;
+  color: #232323;
 }
 
 .button_home {
@@ -217,23 +216,22 @@ span {
   font-weight: 700;
   border: 0.2083vw solid #232323;
   border-radius: 0.486vw;
+  margin-left: 30vw;
 }
 
-.block1 {
+.welcome {
   margin-top: 7.292vw;
 }
-.block1 img {
+.welcome h1 {
+  font-size: 5.659vw;
+  line-height: 5.625vw;
+}
+.welcome img {
   width: 45.97vw;
   height: 29.097vw;
 }
-
-.block1_text {
+.welcome div {
   margin-right: 7.4vw;
-}
-
-.block1 h1 {
-  font-size: 5.659vw;
-  line-height: 5.625vw;
 }
 
 .button_reserve {
@@ -247,24 +245,19 @@ span {
   border-radius: 0.486vw;
 }
 
-.block2 {
+.create {
   background: url(../img/scribble_light_5041.png) 0px 3.472vw/30.07vw no-repeat, url(../img/scribble_light_5043.png) right 16.32vw/32.986vw no-repeat, #232323;
   margin-top: 11.111vw;
   padding: 3.472vw 34.72vw;
-}
-
-.block2_text {
   color: #e9e7e7;
   text-align: center;
 }
-
-.block2 h1 {
+.create h1 {
   font-size: 3.854vw;
   line-height: 3.819vw;
   color: #e9e7e7;
 }
-
-.block2 p {
+.create p {
   padding: 2.431vw 0;
   text-align: center;
 }
@@ -278,43 +271,39 @@ span {
   font-weight: 700;
 }
 
-.block3 {
+.gallery {
   margin-top: 11.458vw;
 }
-
-.block3_block {
-  width: 25.208vw;
-  height: 32.917vw;
-}
-
-.block3 h1 {
+.gallery h1 {
   font-size: 2.528vw;
   line-height: 2.5vw;
+}
+.gallery div {
+  width: 25.208vw;
+  height: 32.917vw;
 }
 
 .line {
   width: 3.611vw;
 }
 
-.block4 {
+.see_places {
   padding: 27.778vw 23vw 7.986vw;
   background: url(../img/scribble_dark_5096.png) 9vw bottom/29.444vw no-repeat padding-box;
 }
-.block4 img {
+.see_places img {
   width: 5.0594vw;
 }
 
-.block4_content {
+.see_places_content {
   text-align: center;
 }
-
-.block4_content h1 {
+.see_places_content h1 {
   font-size: 6.785vw;
   line-height: 6.736vw;
   margin: 4.305vw 0;
 }
-
-.block4_content span {
+.see_places_content span {
   font-family: Cardo;
   font-size: 6.785vw;
   line-height: 6.736vw;
@@ -322,18 +311,19 @@ span {
   text-decoration: underline;
 }
 
-.block5 {
-  padding: 7.986vw 8.2vw 3.472vw;
+.description {
+  padding-top: 7.986vw;
+  padding-bottom: 3.472vw;
   position: relative;
 }
 
-.block5_image1 {
+.description_image1 {
   width: 39.236vw;
   height: 53.889vw;
   margin-right: 2.986vw;
 }
 
-.block5_image2 {
+.description_image2 {
   width: 29.028vw;
   height: 22.361vw;
   margin-bottom: 5.416vw;
@@ -347,7 +337,7 @@ span {
   opacity: 0.9;
 }
 
-.block5_content h1 {
+.description_content h1 {
   font-size: 2.528vw;
   line-height: 3.472vw;
   text-decoration: underline;
@@ -363,83 +353,76 @@ span {
   height: 3.8194vw;
 }
 
-.block6 {
+.choose {
   background: url(../img/scribble_light_5145.png) left 52.5vw/36.319vw no-repeat, #232323;
   padding: 10.764vw 0;
   padding-left: 8vw;
 }
-.block6 img {
+.choose img {
   width: 52.5694vw;
   height: 39.028vw;
 }
 
-.block6_content {
+.choose_content {
   margin-right: 7.7vw;
 }
-
-.block6_content h1 {
-  color: #e9e7e7;
+.choose_content h1 {
   font-size: 3.854vw;
   line-height: 3.819vw;
   margin-bottom: 7.639vw;
 }
-
-.block6_text {
+.choose_content h6 {
+  margin-bottom: 1.319vw;
+}
+.choose_content h1, .choose_content h6, .choose_content p {
   color: #e9e7e7;
 }
 
-.block6_text h6 {
-  margin-bottom: 1.319vw;
-}
-
-.block7 {
+.more_info {
   padding-top: 12.153vw;
 }
-.block7 img {
+.more_info img {
   width: 27.083vw;
   height: 35.833vw;
 }
 
-.block7_content {
+.more_info_content {
   margin-right: 5.6vw;
 }
-
-.block7_content h1 {
+.more_info_content h1 {
   font-size: 5.659vw;
   line-height: 5.625vw;
 }
-
-.block7_content p {
+.more_info_content p {
   border: 0.2083vw solid #232323;
   border-left: 0;
   border-right: 0;
   padding: 1.528vw 2.7083vw;
   margin-top: -0.2083vw;
 }
-
-.block7_text button {
+.more_info_content button {
   height: 1.32vw;
   width: 1.32vw;
   background: url(../img/line_5158.png) 50% 50%/auto 1.32vw no-repeat, url(../img/line_5159.png) 50% 50%/1.32vw no-repeat;
 }
 
-.block8 {
+.reviews {
   background: url(../img/scribble_dark_5282.png) left 18.333vw/23.194vw no-repeat, url(../img/scribble_dark_5286.png) right 66.736vw/28.264vw no-repeat, #e9e7e7;
   padding: 21.736vw 0 13.681vw;
   text-align: center;
 }
-.block8 h1 {
+.reviews h1 {
   font-size: 5.659vw;
   line-height: 5.625vw;
   padding: 0 28vw;
 }
 
-.block8_content {
+.reviews_content {
   padding-top: 3.264vw;
   position: relative;
 }
 
-.block8_block {
+.review_block {
   width: 27.222vw;
   height: 29.653vw;
   border: 0.2083vw solid #232323;
@@ -447,14 +430,14 @@ span {
   padding: 5vw 2.916vw;
   z-index: 1;
 }
-.block8_block p {
+.review_block p {
   text-align: center;
 }
-.block8_block img {
+.review_block img {
   width: 9.375vw;
 }
 
-.button_arrow_b8 {
+.reviews_button_arrow {
   width: 5.972vw;
   height: 5.278vw;
   border: 0.2083vw solid #232323;
@@ -477,24 +460,23 @@ span {
   z-index: 2;
 }
 
-.block9 h1 {
+.be_updated h1 {
   font-size: 5.659vw;
   line-height: 5.625vw;
 }
-.block9 img {
+.be_updated img {
   width: 46.25vw;
   height: 50.6944vw;
 }
-
-.form {
+.be_updated form {
   width: 31.7vw;
 }
 
-.form_group {
+.form_line {
   position: relative;
   margin-bottom: 1.597vw;
 }
-.form_group label {
+.form_line label, .form_line input {
   font-family: Lato;
   font-size: 1.4514vw;
   line-height: 1.1111vw;
@@ -512,11 +494,6 @@ span {
 }
 
 .form_input {
-  font-family: Lato;
-  font-size: 1.4514vw;
-  line-height: 1.1111vw;
-  font-weight: 400;
-  color: #232323;
   width: 100%;
   padding: 0 1.875vw;
   height: 4.375vw;
@@ -566,7 +543,7 @@ section {
           flex-direction: column;
 }
 
-nav {
+nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -578,17 +555,12 @@ nav {
           justify-content: space-between;
 }
 
-.button_contact {
-  margin-left: 30vw;
-}
-
-.block1 {
+.welcome {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
-.block1_text {
+.welcome div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -604,12 +576,7 @@ nav {
           justify-content: space-between;
 }
 
-.block2 {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.block2_text {
+.create {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -620,17 +587,17 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.block3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.block3_block {
+.gallery {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.gallery div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -643,35 +610,26 @@ nav {
           justify-content: space-between;
 }
 
-.block5 {
+.description {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.block5_content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.description_content {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-.block5_text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.description_text {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.block6_content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.choose_content {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -681,10 +639,7 @@ nav {
           justify-content: space-between;
 }
 
-.block7_content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.more_info_content {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -693,8 +648,7 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
-.block7_text p {
+.more_info_content p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -706,20 +660,20 @@ nav {
           justify-content: space-between;
 }
 
-.block8 {
+.reviews {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-.block8_content {
+.reviews_content {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.block8_block {
+.review_block {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -732,13 +686,13 @@ nav {
           justify-content: space-between;
 }
 
-.block9 {
+.be_updated {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.block9_content {
+.be_updated_content {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -747,8 +701,7 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
-.form {
+.be_updated_content form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -764,15 +717,11 @@ nav {
 }
 
 .links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
-.link_column {
+.links div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

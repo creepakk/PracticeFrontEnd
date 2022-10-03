@@ -1,21 +1,20 @@
-.block2 {
+.create {
 	background: url(../img/scribble_light_5041.png) 0px 3.472vw/30.07vw no-repeat, url(../img/scribble_light_5043.png) right 16.32vw/32.986vw no-repeat, #232323;
 	margin-top: 11.111vw;
 	padding: 3.472vw 34.72vw;
-}
-.block2_text{
 	color: #e9e7e7;
 	text-align: center;
+	h1 {
+		font-size: 3.854vw;
+		line-height: 3.819vw;
+		color: #e9e7e7;
+	}
+	p{
+		padding: 2.431vw 0;
+		text-align: center;
+	}
 }
-.block2 h1 {
-	font-size: 3.854vw;
-	line-height: 3.819vw;
-	color: #e9e7e7;
-}
-.block2 p {
-	padding: 2.431vw 0;
-	text-align: center;
-}
+
 .button_travel {
     padding: 1.25vw 3.958vw;
     background-color: transparent;

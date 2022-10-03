@@ -4,114 +4,102 @@ section{
 }
 
 nav{
-	display: flex;
-	align-items: center;	
+	ul{
+		display: flex;
+		align-items: center;	
+		justify-content: space-between;
+	}
+}
+
+
+
+.welcome{
 	justify-content: space-between;
-
-}
-.button_contact{
-	margin-left: 30vw;
-}
-
-
-.block1{
-	justify-content: space-between;
-}
-.block1_text{
-	display: flex;
-	flex-direction: column;
-	align-items: start;
-	justify-content: space-between;
+	div{
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: space-between;
+	}
 }
 
 
-.block2{
-	justify-content: space-around;
-}
-.block2_text{
+.create{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-around;
-}
-
-
-.block3{
 	justify-content: space-between;
 }
-.block3_block{
-	display: flex;
+
+
+.gallery{
+	justify-content: space-between;
+	div{
+		display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	}
 }
 
-.block5{
+.description{
 	justify-content:space-between;
 }
-.block5_content{
-	display: flex;
+.description_content{
 	flex-direction: column;
 }
-.block5_text{
-	display: flex;
+.description_text{
 	justify-content: space-between;
 }
 
-.block6{
-	
-}
-.block6_content{
-	display: flex;
+
+.choose_content{
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-.block7{
-	
-}
-.block7_content{
-	display: flex;
+.more_info_content{
 	flex-direction: column;
 	justify-content: space-between;
-}
-.block7_text p{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	p{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
 }
 
-.block8{
+
+.reviews{
 	flex-direction: column;
 }
-.block8_content{
+.reviews_content{
 	justify-content: space-between;
 }
-.block8_block{
+.review_block{
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.block9{
+.be_updated{
 	justify-content: space-between;
 }
-.block9_content{
+.be_updated_content{
 	flex-direction: column;
 	justify-content: space-between;
+	form{
+		display: flex;
+		flex-direction: column;
+	}
 }
-.form{
-	display: flex;
-	flex-direction: column;
-}
+
 
 .footer{
 	flex-wrap: wrap;	
 }
 .links{
-	display: flex;
 	justify-content: space-between;
-}
-.link_column{
-	display: flex;
-	flex-direction: column;
+	div{
+		display: flex;
+		flex-direction: column;
+	}
 }
