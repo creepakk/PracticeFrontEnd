@@ -23,3 +23,22 @@
     border-radius: 0.486vw;
     font-weight: 700;
 }
+
+@media screen and(orientation:portrait) {
+	.create{
+		margin-top: 0;
+		background: #232323;
+		padding: 5vw 5vw;
+		h1{
+			font-size: 8vw;
+			line-height: 7.5vw;
+		}
+		p{
+			padding: 4vw 0;
+		}
+		.button_travel{
+			padding: 4vw 10vw;
+			border-radius:1.5vw;
+		}
+	}	
+}

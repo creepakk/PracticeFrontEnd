@@ -4,11 +4,9 @@ section{
 }
 
 nav{
-	ul{
-		display: flex;
-		align-items: center;	
-		justify-content: space-between;
-	}
+	display: flex;
+	align-items: center;	
+	justify-content: space-between;
 }
 
 
@@ -36,8 +34,8 @@ nav{
 	justify-content: space-between;
 	div{
 		display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 }
 
@@ -101,5 +99,32 @@ nav{
 	div{
 		display: flex;
 		flex-direction: column;
+	}
+}
+
+
+@media screen and(orientation:portrait) {
+	.welcome{
+		flex-direction: column;
+	}
+	.button_reserve{
+		align-self: center;
+	}
+
+	.create{
+
+	}
+	.gallery{
+		flex-direction: column;
+	}
+
+	.description_content{
+	}
+	.description_text{
+		flex-direction: column;
+	}
+	.links{
+		justify-content: start;
+		flex-wrap: wrap;
 	}
 }

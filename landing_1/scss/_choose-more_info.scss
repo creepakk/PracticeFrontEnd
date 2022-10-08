@@ -48,3 +48,41 @@
 		background: url(../img/line_5158.png) 50% 50%/auto 1.32vw no-repeat, url(../img/line_5159.png) 50% 50%/1.32vw no-repeat;
 	}
 }	
+
+@media screen and(orientation:portrait){
+	.choose{
+		background: #232323;
+		height: 100vw;
+		padding: 8vw 5vw;
+		img{
+			display: none;
+		}
+	}
+	.choose_content{
+		margin-right: 0;
+		h1{
+			font-size: 9vw;
+			line-height: 8.5vw;
+		}
+	}
+	.more_info{
+		padding: 5vw;
+		img{
+			display: none;
+		}
+	}
+	.more_info_content{
+		margin-right: 0;
+		h1{
+			font-size: 10vw;
+			line-height: 9.5vw;
+			margin-bottom: 5vw;
+		}
+		button{
+			background: url(../img/line_5158.png) 50% 50%/auto 3vw no-repeat, url(../img/line_5159.png) 50% 50%/3vw no-repeat;
+			height: 4vw;
+			width: 4vw;
+			margin-left: 2.7083vw;
+		}
+	}
+}

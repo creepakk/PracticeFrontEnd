@@ -8,16 +8,31 @@
 </head>
 <body>
     <section class="container">
-        <nav>
-            <ul>
-                <li><a class="button_home" href="">Home</a></li>
-                <li><a href="">Guides</a></li>
-                <li><a href="">Flights</a></li>
-                <li><a href="">About</a></li>
-                <li><a class="button_contact" href="">Contact Us</a></li>
-            </ul>
-            
-        </nav>
+        <header>
+            <div class="burger_button">
+                <input type="checkbox" id="check-menu">
+                <label for="check-menu">
+                    <span class="burger_line first"></span>
+                    <span class="burger_line second"></span>
+                    <span class="burger_line third"></span>
+                    <span class="burger_line fourth"></span>
+                </label>
+                <ul class="menu_mobile">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Guides</a></li>
+                    <li><a href="">Flights</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <nav class="menu_pc">
+                <a class="button_home" href="">Home</a>
+                <a href="">Guides</a>
+                <a href="">Flights</a>
+                <a href="">About</a>
+                <a class="button_contact" href="">Contact Us</a>
+            </nav>   
+        </header>
 
         <div class="welcome block flex">
             <div>
@@ -37,19 +52,19 @@
         <div class="gallery block flex">
             <div>
                 <img src="img/photo2.png" alt="">
-                <img src="img/line_5060.png" alt="" class="line">
+                <span></span>
                 <h1>Lorem ipsum dolor sit amet</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
             </div>
             <div>
                 <img src="img/photo4.png" alt="">
-                <img src="img/line_5060.png" alt="" class="line">
+                <span></span>
                 <h1>Lorem ipsum dolor sit amet</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
             </div>
             <div>
                 <img src="img/photo5.png" alt="">
-                <img src="img/line_5060.png" alt="" class="line">
+                <span></span>
                 <h1>Lorem ipsum dolor sit amet</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
             </div>
@@ -64,10 +79,10 @@
         </div>
 
         <div class="description block flex">
-            <img src="img/photo6.png" alt="" class="description_image1">
+            <img src="img/photo6.png" alt="" class="description_image">
             <img src="img/tape_5143.png" alt="" class="tape">
             <div class="description_content flex">
-                <img src="img/photo3.png" alt="" class="description_image2">
+                <img src="img/photo3.png" alt="" >
                 <div class="description_text flex">
                     <h1>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do ei</h1>
                     <div>
@@ -114,17 +129,17 @@
             <div class="reviews_content block flex">
                 <button class="reviews_button_arrow arrow_left"></button>
                 <button class="reviews_button_arrow arrow_right"></button>
-                <div class="review_block flex">
+                <div class="review_block rev_first flex">
                     <img src="img/ellipse_5259.png" alt="">
                     <h6>Customer Name</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="review_block flex">
+                <div class="review_block rev_second flex">
                     <img src="img/ellipse_5259.png" alt="">
                     <h6>Customer Name</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="review_block flex">
+                <div class="review_block rev_third flex">
                     <img src="img/ellipse_5259.png" alt="">
                     <h6>Customer Name</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.</p>

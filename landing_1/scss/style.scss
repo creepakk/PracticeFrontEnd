@@ -18,7 +18,7 @@ a{
     line-height: 1.2;
     background-color: transparent;
 }
-nav{
+header{
     a{
         color: #515155;
         font-size: 1.458vw;
@@ -87,6 +87,7 @@ span{
 .links{
     width: 57.7vw;
     a{
+        white-space: nowrap;
         text-align: left;
         font-size: 1.451vw;
         margin: 1.0104vw 0;
@@ -96,12 +97,55 @@ span{
     }
 }
 
+@media screen and(orientation:portrait) {
+    body{
+        background: #e9e7e7;
+    }
+    .block{
+        padding: 0 5vw;
+    }
+    a{
+        font-size: 4vw;
+    }
+    h6{
+        font-size: 3.4vw;
+    }
+    p{
+        font-size: 3.5vw;
+    }    
+    .footer{
+        margin-top: 10vw;
+        background: #c4c4c4;
+        padding: 5vw;
+        h1{
+            display: none;
+        }
+        h6{
+            font-size: 3.4vw;
+            margin-bottom: 2vw;
+        }
+        p{
+            font-size: 2vw;
+            margin-top: 5vw;
+        }
+    }
+    .links{
+        width: 90vw;
+        a{
+            margin: 2vw 0;
+            font-size: 3vw;
+            width: 36vw;
+        }       
+    }
+}
 
-@import "_welcome";
-@import "_create";
-@import "_gallery-see_places-description";
+
+
+@import "_menu-mobile.scss";
+@import "_welcome.scss";
+@import "_create.scss";
+@import "_gallery-see_places-description.scss";
 @import "_choose-more_info.scss";
 @import "_reviews-be_updated.scss";
 
 @import "_flex.scss";
-
